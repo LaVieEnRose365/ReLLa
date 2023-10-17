@@ -45,12 +45,13 @@ This step samples training data from the whole training set, and constructs a mi
 python training_set_construction.py --K 5
 ~~~
 
-## Inference
+## Quick start
+### Inference
 ~~~python
 python infer.py --model_path XXX --K 5 --dataset ml-1m --temp_type simple
 ~~~
 
-## Finetune
+### Finetune
 ~~~python
 python finetune.py --model_path XXX --dataset ml-1m --K 5 --train_size 64 --train_type simple --test_type simple --epochs 10 --lr 1e-3 --total_batch_size 64
 ~~~
