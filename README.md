@@ -37,7 +37,7 @@ python topK_relevant_ml25m.py
 ~~~python
 python data2json.py --K 10 --temp_type simple --set test --dataset ml-1m
 ~~~
-Demo processed data is under [./data/ml-1m/test/test_5_simple.json](./data/ml-1m/test/test_5_simple.json)
+Demo processed data is under [./data/ml-1m/proc_data/data/test/test_5_simple.json](./data/ml-1m/proc_data/data/test/test_5_simple.json)
 
 ## Training_set_construction
 This step samples training data from the whole training set, and constructs a mixture dataset of both original data and retrieval-enhanced data.
