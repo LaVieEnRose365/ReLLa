@@ -1,0 +1,338 @@
+[
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Godfather, The (1972) (4 stars)', '1. Babe: Pig in the City (1998) (4 stars)', '2. Silence of the Lambs, The (1991) (5 stars)', '3. Rain Man (1988) (4 stars)', '4. Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Walkabout (1971)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Babe: Pig in the City (1998) (4 stars)', '1. Silence of the Lambs, The (1991) (5 stars)', '2. Rain Man (1988) (4 stars)', '3. Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954) (5 stars)', '4. Walkabout (1971) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Burnt By the Sun (Utomlyonnye solntsem) (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Silence of the Lambs, The (1991) (5 stars)', '1. Rain Man (1988) (4 stars)', '2. Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954) (5 stars)', '3. Walkabout (1971) (3 stars)', '4. Burnt By the Sun (Utomlyonnye solntsem) (1994) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Places in the Heart (1984)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Rain Man (1988) (4 stars)', '1. Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954) (5 stars)', '2. Walkabout (1971) (3 stars)', '3. Burnt By the Sun (Utomlyonnye solntsem) (1994) (5 stars)', '4. Places in the Heart (1984) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***No Way Out (1987)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954) (5 stars)', '1. Walkabout (1971) (3 stars)', '2. Burnt By the Sun (Utomlyonnye solntsem) (1994) (5 stars)', '3. Places in the Heart (1984) (5 stars)', '4. No Way Out (1987) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Ciao, Professore! (Io speriamo che me la cavo ) (1993)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Walkabout (1971) (3 stars)', '1. Burnt By the Sun (Utomlyonnye solntsem) (1994) (5 stars)', '2. Places in the Heart (1984) (5 stars)', '3. No Way Out (1987) (4 stars)', '4. Ciao, Professore! (Io speriamo che me la cavo ) (1993) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***My Life in Pink (Ma vie en rose) (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Burnt By the Sun (Utomlyonnye solntsem) (1994) (5 stars)', '1. Places in the Heart (1984) (5 stars)', '2. No Way Out (1987) (4 stars)', '3. Ciao, Professore! (Io speriamo che me la cavo ) (1993) (4 stars)', '4. My Life in Pink (Ma vie en rose) (1997) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Apple, The (Sib) (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Places in the Heart (1984) (5 stars)', '1. No Way Out (1987) (4 stars)', '2. Ciao, Professore! (Io speriamo che me la cavo ) (1993) (4 stars)', '3. My Life in Pink (Ma vie en rose) (1997) (2 stars)', '4. Apple, The (Sib) (1998) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Casablanca (1942)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. No Way Out (1987) (4 stars)', '1. Ciao, Professore! (Io speriamo che me la cavo ) (1993) (4 stars)', '2. My Life in Pink (Ma vie en rose) (1997) (2 stars)', '3. Apple, The (Sib) (1998) (5 stars)', '4. Casablanca (1942) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Wizard of Oz, The (1939)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Ciao, Professore! (Io speriamo che me la cavo ) (1993) (4 stars)', '1. My Life in Pink (Ma vie en rose) (1997) (2 stars)', '2. Apple, The (Sib) (1998) (5 stars)', '3. Casablanca (1942) (5 stars)', '4. Wizard of Oz, The (1939) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Schindler's List (1993)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. My Life in Pink (Ma vie en rose) (1997) (2 stars)', '1. Apple, The (Sib) (1998) (5 stars)', '2. Casablanca (1942) (5 stars)', '3. Wizard of Oz, The (1939) (5 stars)', \"4. Schindler's List (1993) (5 stars)\"]\nBased on the movies he has watched, deduce if he will like the movie ***Chinatown (1974)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Apple, The (Sib) (1998) (5 stars)', '1. Casablanca (1942) (5 stars)', '2. Wizard of Oz, The (1939) (5 stars)', \"3. Schindler's List (1993) (5 stars)\", '4. Chinatown (1974) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Shawshank Redemption, The (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Casablanca (1942) (5 stars)', '1. Wizard of Oz, The (1939) (5 stars)', \"2. Schindler's List (1993) (5 stars)\", '3. Chinatown (1974) (5 stars)', '4. Shawshank Redemption, The (1994) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Cold Fever (\u00c1 k\u00f6ldum klaka) (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Wizard of Oz, The (1939) (5 stars)', \"1. Schindler's List (1993) (5 stars)\", '2. Chinatown (1974) (5 stars)', '3. Shawshank Redemption, The (1994) (4 stars)', '4. Cold Fever (\u00c1 k\u00f6ldum klaka) (1994) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Not One Less (Yi ge dou bu neng shao) (1999)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n[\"0. Schindler's List (1993) (5 stars)\", '1. Chinatown (1974) (5 stars)', '2. Shawshank Redemption, The (1994) (4 stars)', '3. Cold Fever (\u00c1 k\u00f6ldum klaka) (1994) (5 stars)', '4. Not One Less (Yi ge dou bu neng shao) (1999) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Maya Lin: A Strong Clear Vision (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Chinatown (1974) (5 stars)', '1. Shawshank Redemption, The (1994) (4 stars)', '2. Cold Fever (\u00c1 k\u00f6ldum klaka) (1994) (5 stars)', '3. Not One Less (Yi ge dou bu neng shao) (1999) (5 stars)', '4. Maya Lin: A Strong Clear Vision (1994) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Shakespeare in Love (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Shawshank Redemption, The (1994) (4 stars)', '1. Cold Fever (\u00c1 k\u00f6ldum klaka) (1994) (5 stars)', '2. Not One Less (Yi ge dou bu neng shao) (1999) (5 stars)', '3. Maya Lin: A Strong Clear Vision (1994) (5 stars)', '4. Shakespeare in Love (1998) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***American Beauty (1999)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Cold Fever (\u00c1 k\u00f6ldum klaka) (1994) (5 stars)', '1. Not One Less (Yi ge dou bu neng shao) (1999) (5 stars)', '2. Maya Lin: A Strong Clear Vision (1994) (5 stars)', '3. Shakespeare in Love (1998) (3 stars)', '4. American Beauty (1999) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Fargo (1996)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Not One Less (Yi ge dou bu neng shao) (1999) (5 stars)', '1. Maya Lin: A Strong Clear Vision (1994) (5 stars)', '2. Shakespeare in Love (1998) (3 stars)', '3. American Beauty (1999) (4 stars)', '4. Fargo (1996) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Fast, Cheap & Out of Control (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Maya Lin: A Strong Clear Vision (1994) (5 stars)', '1. Shakespeare in Love (1998) (3 stars)', '2. American Beauty (1999) (4 stars)', '3. Fargo (1996) (4 stars)', '4. Fast, Cheap & Out of Control (1997) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Saving Private Ryan (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Shakespeare in Love (1998) (3 stars)', '1. American Beauty (1999) (4 stars)', '2. Fargo (1996) (4 stars)', '3. Fast, Cheap & Out of Control (1997) (5 stars)', '4. Saving Private Ryan (1998) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***To Live (Huozhe) (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. American Beauty (1999) (4 stars)', '1. Fargo (1996) (4 stars)', '2. Fast, Cheap & Out of Control (1997) (5 stars)', '3. Saving Private Ryan (1998) (5 stars)', '4. To Live (Huozhe) (1994) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Sense and Sensibility (1995)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Fargo (1996) (4 stars)', '1. Fast, Cheap & Out of Control (1997) (5 stars)', '2. Saving Private Ryan (1998) (5 stars)', '3. To Live (Huozhe) (1994) (4 stars)', '4. Sense and Sensibility (1995) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Sixth Sense, The (1999)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Fast, Cheap & Out of Control (1997) (5 stars)', '1. Saving Private Ryan (1998) (5 stars)', '2. To Live (Huozhe) (1994) (4 stars)', '3. Sense and Sensibility (1995) (3 stars)', '4. Sixth Sense, The (1999) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Babe (1995)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Saving Private Ryan (1998) (5 stars)', '1. To Live (Huozhe) (1994) (4 stars)', '2. Sense and Sensibility (1995) (3 stars)', '3. Sixth Sense, The (1999) (4 stars)', '4. Babe (1995) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Hoop Dreams (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. To Live (Huozhe) (1994) (4 stars)', '1. Sense and Sensibility (1995) (3 stars)', '2. Sixth Sense, The (1999) (4 stars)', '3. Babe (1995) (4 stars)', '4. Hoop Dreams (1994) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Run Lola Run (Lola rennt) (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Sense and Sensibility (1995) (3 stars)', '1. Sixth Sense, The (1999) (4 stars)', '2. Babe (1995) (4 stars)', '3. Hoop Dreams (1994) (5 stars)', '4. Run Lola Run (Lola rennt) (1998) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***L.A. Confidential (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Sixth Sense, The (1999) (4 stars)', '1. Babe (1995) (4 stars)', '2. Hoop Dreams (1994) (5 stars)', '3. Run Lola Run (Lola rennt) (1998) (4 stars)', '4. L.A. Confidential (1997) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Microcosmos (Microcosmos: Le peuple de l'herbe) (1996)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Babe (1995) (4 stars)', '1. Hoop Dreams (1994) (5 stars)', '2. Run Lola Run (Lola rennt) (1998) (4 stars)', '3. L.A. Confidential (1997) (4 stars)', \"4. Microcosmos (Microcosmos: Le peuple de l'herbe) (1996) (5 stars)\"]\nBased on the movies he has watched, deduce if he will like the movie ***Citizen Ruth (1996)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Hoop Dreams (1994) (5 stars)', '1. Run Lola Run (Lola rennt) (1998) (4 stars)', '2. L.A. Confidential (1997) (4 stars)', \"3. Microcosmos (Microcosmos: Le peuple de l'herbe) (1996) (5 stars)\", '4. Citizen Ruth (1996) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Apollo 13 (1995)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Run Lola Run (Lola rennt) (1998) (4 stars)', '1. L.A. Confidential (1997) (4 stars)', \"2. Microcosmos (Microcosmos: Le peuple de l'herbe) (1996) (5 stars)\", '3. Citizen Ruth (1996) (5 stars)', '4. Apollo 13 (1995) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Quiz Show (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. L.A. Confidential (1997) (4 stars)', \"1. Microcosmos (Microcosmos: Le peuple de l'herbe) (1996) (5 stars)\", '2. Citizen Ruth (1996) (5 stars)', '3. Apollo 13 (1995) (3 stars)', '4. Quiz Show (1994) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Thirty-Two Short Films About Glenn Gould (1993)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n[\"0. Microcosmos (Microcosmos: Le peuple de l'herbe) (1996) (5 stars)\", '1. Citizen Ruth (1996) (5 stars)', '2. Apollo 13 (1995) (3 stars)', '3. Quiz Show (1994) (2 stars)', '4. Thirty-Two Short Films About Glenn Gould (1993) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Welcome to the Dollhouse (1995)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Citizen Ruth (1996) (5 stars)', '1. Apollo 13 (1995) (3 stars)', '2. Quiz Show (1994) (2 stars)', '3. Thirty-Two Short Films About Glenn Gould (1993) (4 stars)', '4. Welcome to the Dollhouse (1995) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Shall We Dance? (Shall We Dansu?) (1996)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Apollo 13 (1995) (3 stars)', '1. Quiz Show (1994) (2 stars)', '2. Thirty-Two Short Films About Glenn Gould (1993) (4 stars)', '3. Welcome to the Dollhouse (1995) (5 stars)', '4. Shall We Dance? (Shall We Dansu?) (1996) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Pillow Book, The (1995)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Quiz Show (1994) (2 stars)', '1. Thirty-Two Short Films About Glenn Gould (1993) (4 stars)', '2. Welcome to the Dollhouse (1995) (5 stars)', '3. Shall We Dance? (Shall We Dansu?) (1996) (5 stars)', '4. Pillow Book, The (1995) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Like Water for Chocolate (Como agua para chocolate) (1992)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Thirty-Two Short Films About Glenn Gould (1993) (4 stars)', '1. Welcome to the Dollhouse (1995) (5 stars)', '2. Shall We Dance? (Shall We Dansu?) (1996) (5 stars)', '3. Pillow Book, The (1995) (2 stars)', '4. Like Water for Chocolate (Como agua para chocolate) (1992) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Fearless (1993)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Welcome to the Dollhouse (1995) (5 stars)', '1. Shall We Dance? (Shall We Dansu?) (1996) (5 stars)', '2. Pillow Book, The (1995) (2 stars)', '3. Like Water for Chocolate (Como agua para chocolate) (1992) (3 stars)', '4. Fearless (1993) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Bound (1996)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Shall We Dance? (Shall We Dansu?) (1996) (5 stars)', '1. Pillow Book, The (1995) (2 stars)', '2. Like Water for Chocolate (Como agua para chocolate) (1992) (3 stars)', '3. Fearless (1993) (4 stars)', '4. Bound (1996) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Sling Blade (1996)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Pillow Book, The (1995) (2 stars)', '1. Like Water for Chocolate (Como agua para chocolate) (1992) (3 stars)', '2. Fearless (1993) (4 stars)', '3. Bound (1996) (4 stars)', '4. Sling Blade (1996) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Life Is Beautiful (La Vita \u00e8 bella) (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Like Water for Chocolate (Como agua para chocolate) (1992) (3 stars)', '1. Fearless (1993) (4 stars)', '2. Bound (1996) (4 stars)', '3. Sling Blade (1996) (3 stars)', '4. Life Is Beautiful (La Vita \u00e8 bella) (1997) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Ed Wood (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Fearless (1993) (4 stars)', '1. Bound (1996) (4 stars)', '2. Sling Blade (1996) (3 stars)', '3. Life Is Beautiful (La Vita \u00e8 bella) (1997) (3 stars)', '4. Ed Wood (1994) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Heavenly Creatures (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Bound (1996) (4 stars)', '1. Sling Blade (1996) (3 stars)', '2. Life Is Beautiful (La Vita \u00e8 bella) (1997) (3 stars)', '3. Ed Wood (1994) (2 stars)', '4. Heavenly Creatures (1994) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Farewell My Concubine (1993)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Sling Blade (1996) (3 stars)', '1. Life Is Beautiful (La Vita \u00e8 bella) (1997) (3 stars)', '2. Ed Wood (1994) (2 stars)', '3. Heavenly Creatures (1994) (2 stars)', '4. Farewell My Concubine (1993) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Crying Game, The (1992)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Life Is Beautiful (La Vita \u00e8 bella) (1997) (3 stars)', '1. Ed Wood (1994) (2 stars)', '2. Heavenly Creatures (1994) (2 stars)', '3. Farewell My Concubine (1993) (4 stars)', '4. Crying Game, The (1992) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Good Will Hunting (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Ed Wood (1994) (2 stars)', '1. Heavenly Creatures (1994) (2 stars)', '2. Farewell My Concubine (1993) (4 stars)', '3. Crying Game, The (1992) (5 stars)', '4. Good Will Hunting (1997) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Usual Suspects, The (1995)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Heavenly Creatures (1994) (2 stars)', '1. Farewell My Concubine (1993) (4 stars)', '2. Crying Game, The (1992) (5 stars)', '3. Good Will Hunting (1997) (3 stars)', '4. Usual Suspects, The (1995) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Crumb (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Farewell My Concubine (1993) (4 stars)', '1. Crying Game, The (1992) (5 stars)', '2. Good Will Hunting (1997) (3 stars)', '3. Usual Suspects, The (1995) (4 stars)', '4. Crumb (1994) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***To Die For (1995)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Crying Game, The (1992) (5 stars)', '1. Good Will Hunting (1997) (3 stars)', '2. Usual Suspects, The (1995) (4 stars)', '3. Crumb (1994) (4 stars)', '4. To Die For (1995) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Bullets Over Broadway (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Good Will Hunting (1997) (3 stars)', '1. Usual Suspects, The (1995) (4 stars)', '2. Crumb (1994) (4 stars)', '3. To Die For (1995) (3 stars)', '4. Bullets Over Broadway (1994) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Philadelphia (1993)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Usual Suspects, The (1995) (4 stars)', '1. Crumb (1994) (4 stars)', '2. To Die For (1995) (3 stars)', '3. Bullets Over Broadway (1994) (2 stars)', '4. Philadelphia (1993) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Reservoir Dogs (1992)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Crumb (1994) (4 stars)', '1. To Die For (1995) (3 stars)', '2. Bullets Over Broadway (1994) (2 stars)', '3. Philadelphia (1993) (4 stars)', '4. Reservoir Dogs (1992) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Terminator 2: Judgment Day (1991)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. To Die For (1995) (3 stars)', '1. Bullets Over Broadway (1994) (2 stars)', '2. Philadelphia (1993) (4 stars)', '3. Reservoir Dogs (1992) (4 stars)', '4. Terminator 2: Judgment Day (1991) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Postino, Il (The Postman) (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Bullets Over Broadway (1994) (2 stars)', '1. Philadelphia (1993) (4 stars)', '2. Reservoir Dogs (1992) (4 stars)', '3. Terminator 2: Judgment Day (1991) (4 stars)', '4. Postino, Il (The Postman) (1994) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Apostle, The (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Philadelphia (1993) (4 stars)', '1. Reservoir Dogs (1992) (4 stars)', '2. Terminator 2: Judgment Day (1991) (4 stars)', '3. Postino, Il (The Postman) (1994) (5 stars)', '4. Apostle, The (1997) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Go (1999)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Reservoir Dogs (1992) (4 stars)', '1. Terminator 2: Judgment Day (1991) (4 stars)', '2. Postino, Il (The Postman) (1994) (5 stars)', '3. Apostle, The (1997) (3 stars)', '4. Go (1999) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Spanish Prisoner, The (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Terminator 2: Judgment Day (1991) (4 stars)', '1. Postino, Il (The Postman) (1994) (5 stars)', '2. Apostle, The (1997) (3 stars)', '3. Go (1999) (4 stars)', '4. Spanish Prisoner, The (1997) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Simple Plan, A (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Postino, Il (The Postman) (1994) (5 stars)', '1. Apostle, The (1997) (3 stars)', '2. Go (1999) (4 stars)', '3. Spanish Prisoner, The (1997) (4 stars)', '4. Simple Plan, A (1998) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Once Were Warriors (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Apostle, The (1997) (3 stars)', '1. Go (1999) (4 stars)', '2. Spanish Prisoner, The (1997) (4 stars)', '3. Simple Plan, A (1998) (4 stars)', '4. Once Were Warriors (1994) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Full Monty, The (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is doctor/health care. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Go (1999) (4 stars)', '1. Spanish Prisoner, The (1997) (4 stars)', '2. Simple Plan, A (1998) (4 stars)', '3. Once Were Warriors (1994) (4 stars)', '4. Full Monty, The (1997) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Four Weddings and a Funeral (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Taxi Driver (1976) (4 stars)', '1. Nell (1994) (4 stars)', '2. Doctor Zhivago (1965) (4 stars)', '3. Annie Hall (1977) (3 stars)', '4. Notorious (1946) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***General, The (1927)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Nell (1994) (4 stars)', '1. Doctor Zhivago (1965) (4 stars)', '2. Annie Hall (1977) (3 stars)', '3. Notorious (1946) (4 stars)', '4. General, The (1927) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Harvey (1950)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Doctor Zhivago (1965) (4 stars)', '1. Annie Hall (1977) (3 stars)', '2. Notorious (1946) (4 stars)', '3. General, The (1927) (4 stars)', '4. Harvey (1950) (5 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Go West (1925)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Annie Hall (1977) (3 stars)', '1. Notorious (1946) (4 stars)', '2. General, The (1927) (4 stars)', '3. Harvey (1950) (5 stars)', '4. Go West (1925) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***My Man Godfrey (1936)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Notorious (1946) (4 stars)', '1. General, The (1927) (4 stars)', '2. Harvey (1950) (5 stars)', '3. Go West (1925) (3 stars)', '4. My Man Godfrey (1936) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***M*A*S*H (1970)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. General, The (1927) (4 stars)', '1. Harvey (1950) (5 stars)', '2. Go West (1925) (3 stars)', '3. My Man Godfrey (1936) (3 stars)', '4. M*A*S*H (1970) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Arsenic and Old Lace (1944)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Harvey (1950) (5 stars)', '1. Go West (1925) (3 stars)', '2. My Man Godfrey (1936) (3 stars)', '3. M*A*S*H (1970) (3 stars)', '4. Arsenic and Old Lace (1944) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Christmas Story, A (1983)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Go West (1925) (3 stars)', '1. My Man Godfrey (1936) (3 stars)', '2. M*A*S*H (1970) (3 stars)', '3. Arsenic and Old Lace (1944) (3 stars)', '4. Christmas Story, A (1983) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Animal House (1978)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. My Man Godfrey (1936) (3 stars)', '1. M*A*S*H (1970) (3 stars)', '2. Arsenic and Old Lace (1944) (3 stars)', '3. Christmas Story, A (1983) (4 stars)', '4. Animal House (1978) (2 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Manhattan (1979)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. M*A*S*H (1970) (3 stars)', '1. Arsenic and Old Lace (1944) (3 stars)', '2. Christmas Story, A (1983) (4 stars)', '3. Animal House (1978) (2 stars)', '4. Manhattan (1979) (2 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Cool Hand Luke (1967)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Arsenic and Old Lace (1944) (3 stars)', '1. Christmas Story, A (1983) (4 stars)', '2. Animal House (1978) (2 stars)', '3. Manhattan (1979) (2 stars)', '4. Cool Hand Luke (1967) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Midsummer Night's Dream, A (1999)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Christmas Story, A (1983) (4 stars)', '1. Animal House (1978) (2 stars)', '2. Manhattan (1979) (2 stars)', '3. Cool Hand Luke (1967) (4 stars)', \"4. Midsummer Night's Dream, A (1999) (3 stars)\"]\nBased on the movies she has watched, deduce if she will like the movie ***Bringing Up Baby (1938)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Animal House (1978) (2 stars)', '1. Manhattan (1979) (2 stars)', '2. Cool Hand Luke (1967) (4 stars)', \"3. Midsummer Night's Dream, A (1999) (3 stars)\", '4. Bringing Up Baby (1938) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Airplane! (1980)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Manhattan (1979) (2 stars)', '1. Cool Hand Luke (1967) (4 stars)', \"2. Midsummer Night's Dream, A (1999) (3 stars)\", '3. Bringing Up Baby (1938) (4 stars)', '4. Airplane! (1980) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Mary Poppins (1964)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Cool Hand Luke (1967) (4 stars)', \"1. Midsummer Night's Dream, A (1999) (3 stars)\", '2. Bringing Up Baby (1938) (4 stars)', '3. Airplane! (1980) (4 stars)', '4. Mary Poppins (1964) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Producers, The (1968)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n[\"0. Midsummer Night's Dream, A (1999) (3 stars)\", '1. Bringing Up Baby (1938) (4 stars)', '2. Airplane! (1980) (4 stars)', '3. Mary Poppins (1964) (4 stars)', '4. Producers, The (1968) (5 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Shakespeare in Love (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Bringing Up Baby (1938) (4 stars)', '1. Airplane! (1980) (4 stars)', '2. Mary Poppins (1964) (4 stars)', '3. Producers, The (1968) (5 stars)', '4. Shakespeare in Love (1998) (5 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Princess Bride, The (1987)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Airplane! (1980) (4 stars)', '1. Mary Poppins (1964) (4 stars)', '2. Producers, The (1968) (5 stars)', '3. Shakespeare in Love (1998) (5 stars)', '4. Princess Bride, The (1987) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Hard Day's Night, A (1964)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Mary Poppins (1964) (4 stars)', '1. Producers, The (1968) (5 stars)', '2. Shakespeare in Love (1998) (5 stars)', '3. Princess Bride, The (1987) (4 stars)', \"4. Hard Day's Night, A (1964) (3 stars)\"]\nBased on the movies she has watched, deduce if she will like the movie ***Auntie Mame (1958)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Producers, The (1968) (5 stars)', '1. Shakespeare in Love (1998) (5 stars)', '2. Princess Bride, The (1987) (4 stars)', \"3. Hard Day's Night, A (1964) (3 stars)\", '4. Auntie Mame (1958) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Wings of Desire (Der Himmel \u00fcber Berlin) (1987)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Shakespeare in Love (1998) (5 stars)', '1. Princess Bride, The (1987) (4 stars)', \"2. Hard Day's Night, A (1964) (3 stars)\", '3. Auntie Mame (1958) (4 stars)', '4. Wings of Desire (Der Himmel \u00fcber Berlin) (1987) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Grand Day Out, A (1992)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Princess Bride, The (1987) (4 stars)', \"1. Hard Day's Night, A (1964) (3 stars)\", '2. Auntie Mame (1958) (4 stars)', '3. Wings of Desire (Der Himmel \u00fcber Berlin) (1987) (4 stars)', '4. Grand Day Out, A (1992) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***His Girl Friday (1940)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n[\"0. Hard Day's Night, A (1964) (3 stars)\", '1. Auntie Mame (1958) (4 stars)', '2. Wings of Desire (Der Himmel \u00fcber Berlin) (1987) (4 stars)', '3. Grand Day Out, A (1992) (4 stars)', '4. His Girl Friday (1940) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Shall We Dance? (1937)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is other or not specified. Her age is 45-49.\nShe watched the following movies in order in the past, and rated them:\n['0. Auntie Mame (1958) (4 stars)', '1. Wings of Desire (Der Himmel \u00fcber Berlin) (1987) (4 stars)', '2. Grand Day Out, A (1992) (4 stars)', '3. His Girl Friday (1940) (4 stars)', '4. Shall We Dance? (1937) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Moonstruck (1987)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    }
+]

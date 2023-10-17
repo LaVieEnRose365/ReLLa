@@ -1,0 +1,70 @@
+[
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. True Romance (1993) (4 stars)', '1. Desperado (1995) (5 stars)', '2. Backdraft (1991) (5 stars)', '3. Men in Black (1997) (4 stars)', '4. Buffalo 66 (1998) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Ronin (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Desperado (1995) (5 stars)', '1. Backdraft (1991) (5 stars)', '2. Men in Black (1997) (4 stars)', '3. Buffalo 66 (1998) (5 stars)', '4. Ronin (1998) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Payback (1999)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is academic/educator. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n['0. Adventures in Babysitting (1987) (4 stars)', '1. Addams Family, The (1991) (3 stars)', '2. Tea with Mussolini (1999) (5 stars)', \"3. Ulee's Gold (1997) (4 stars)\", '4. Gigi (1958) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Carrie (1976)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is sales/marketing. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n['0. Shine (1996) (5 stars)', '1. Rob Roy (1995) (4 stars)', '2. Gattaca (1997) (4 stars)', '3. Perfect Murder, A (1998) (3 stars)', '4. One True Thing (1998) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Wag the Dog (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is academic/educator. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n['0. Addams Family, The (1991) (3 stars)', '1. Tea with Mussolini (1999) (5 stars)', \"2. Ulee's Gold (1997) (4 stars)\", '3. Gigi (1958) (4 stars)', '4. Carrie (1976) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Grease (1978)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is academic/educator. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n['0. Tea with Mussolini (1999) (5 stars)', \"1. Ulee's Gold (1997) (4 stars)\", '2. Gigi (1958) (4 stars)', '3. Carrie (1976) (3 stars)', '4. Grease (1978) (5 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Ace Ventura: Pet Detective (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Backdraft (1991) (5 stars)', '1. Men in Black (1997) (4 stars)', '2. Buffalo 66 (1998) (5 stars)', '3. Ronin (1998) (3 stars)', '4. Payback (1999) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Mask of Zorro, The (1998)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Men in Black (1997) (4 stars)', '1. Buffalo 66 (1998) (5 stars)', '2. Ronin (1998) (3 stars)', '3. Payback (1999) (2 stars)', '4. Mask of Zorro, The (1998) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Arachnophobia (1990)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Buffalo 66 (1998) (5 stars)', '1. Ronin (1998) (3 stars)', '2. Payback (1999) (2 stars)', '3. Mask of Zorro, The (1998) (3 stars)', '4. Arachnophobia (1990) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Patriot Games (1992)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Ronin (1998) (3 stars)', '1. Payback (1999) (2 stars)', '2. Mask of Zorro, The (1998) (3 stars)', '3. Arachnophobia (1990) (5 stars)', '4. Patriot Games (1992) (5 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Clear and Present Danger (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Payback (1999) (2 stars)', '1. Mask of Zorro, The (1998) (3 stars)', '2. Arachnophobia (1990) (5 stars)', '3. Patriot Games (1992) (5 stars)', '4. Clear and Present Danger (1994) (4 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Rock, The (1996)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a female. Her job is sales/marketing. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n['0. Rob Roy (1995) (4 stars)', '1. Gattaca (1997) (4 stars)', '2. Perfect Murder, A (1998) (3 stars)', '3. One True Thing (1998) (3 stars)', '4. Wag the Dog (1997) (5 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Pretty Woman (1990)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is academic/educator. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n[\"0. Ulee's Gold (1997) (4 stars)\", '1. Gigi (1958) (4 stars)', '2. Carrie (1976) (3 stars)', '3. Grease (1978) (5 stars)', '4. Ace Ventura: Pet Detective (1994) (4 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Face/Off (1997)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is academic/educator. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n['0. Gigi (1958) (4 stars)', '1. Carrie (1976) (3 stars)', '2. Grease (1978) (5 stars)', '3. Ace Ventura: Pet Detective (1994) (4 stars)', '4. Face/Off (1997) (5 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Naked Gun 33 1/3: The Final Insult (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Mask of Zorro, The (1998) (3 stars)', '1. Arachnophobia (1990) (5 stars)', '2. Patriot Games (1992) (5 stars)', '3. Clear and Present Danger (1994) (4 stars)', '4. Rock, The (1996) (3 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***eXistenZ (1999)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "No."
+    },
+    {
+        "input": "The user is a male. His job is programmer. His age is 25-34.\nHe watched the following movies in order in the past, and rated them:\n['0. Arachnophobia (1990) (5 stars)', '1. Patriot Games (1992) (5 stars)', '2. Clear and Present Danger (1994) (4 stars)', '3. Rock, The (1996) (3 stars)', '4. eXistenZ (1999) (2 stars)']\nBased on the movies he has watched, deduce if he will like the movie ***Natural Born Killers (1994)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    },
+    {
+        "input": "The user is a female. Her job is academic/educator. Her age is 35-44.\nShe watched the following movies in order in the past, and rated them:\n['0. Carrie (1976) (3 stars)', '1. Grease (1978) (5 stars)', '2. Ace Ventura: Pet Detective (1994) (4 stars)', '3. Face/Off (1997) (5 stars)', '4. Naked Gun 33 1/3: The Final Insult (1994) (3 stars)']\nBased on the movies she has watched, deduce if she will like the movie ***Honey, I Shrunk the Kids (1989)***.\nNote that more stars the user rated the movie, the user like the movie more.\nYou should ONLY tell me yes or no.",
+        "output": "Yes."
+    }
+]
