@@ -48,7 +48,7 @@ python training_set_construction.py --K 5
 ## Quick start
 ### Inference
 ~~~python
-python infer.py --model_path XXX --K 5 --dataset ml-1m --temp_type simple
+python inference.py --model_path XXX --K 5 --dataset ml-1m --temp_type simple
 ~~~
 
 ### Finetune
