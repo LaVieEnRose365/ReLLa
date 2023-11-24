@@ -46,12 +46,13 @@ python training_set_construction.py --K 5
 ~~~
 
 ## Quick start
+You should provide the model path in the scripts.
 ### Inference
 ~~~python
-python inference.py --model_path XXX --K 5 --dataset ml-1m --temp_type simple
+python scripts/script_inference.py --K 5 --dataset ml-1m --temp_type simple
 ~~~
 
 ### Finetune
 ~~~python
-python finetune.py --model_path XXX --dataset ml-1m --K 5 --train_size 64 --train_type simple --test_type simple --epochs 10 --lr 1e-3 --total_batch_size 64
+python scripts/script_finetune.py --dataset ml-1m --K 5 --train_size 64 --train_type simple --test_type simple --epochs 5 --lr 1e-3 --total_batch_size 64
 ~~~
