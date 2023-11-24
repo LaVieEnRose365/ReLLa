@@ -22,7 +22,7 @@ if torch.cuda.device_count() < args.num_gpu:
 
 for K in args.K:
     fp = f"K{K}_{args.temp_type}"
-    command = f"python -m torch.distributed.launch --nproc_per_node {args.num_gpu} --master_port {PORT_ID} finetune.py "\
+    command = f"python -m torch.distributed.launch --nproc_per_node {args.num_gpu} --master_port {PORT_ID} inference.py "\
                 f"--model_path {MODEL_PATH} "\
                 f"--dataset {args.dataset} "\
                 f"--K {K} "\
