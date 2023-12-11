@@ -3,6 +3,8 @@
 ## Introduction
 This is the pytorch implementation of ***ReLLa*** proposed in the paper [ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation](https://arxiv.org/abs/2308.11131).
 
+In this repo, we implement ReLLa with ```transformers==4.28.1```. We also provide a newer version of implementation with ```transformers==4.35.2``` in this [repo](https://github.com/CHIANGEL/ReLLa-hf4.35.2).
+
 ## Requirements
 ~~~python
 pip install -r requirments.txt
