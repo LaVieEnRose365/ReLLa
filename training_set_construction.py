@@ -16,7 +16,7 @@ DATA_DIR = f"./data/{args.dataset}/proc_data/data"
 
 train_set = json.load(open('/'.join([DATA_DIR, f"train/train_5_simple.json"])))
 random.seed(42)
-train_index = list(range(70000))
+train_index = random.sample(range(len(train_set), 70000)
 
 
 for set in ["train"]:
