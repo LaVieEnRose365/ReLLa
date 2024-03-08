@@ -11,6 +11,9 @@ pip install -r requirments.txt
 ~~~
 
 ## Data preprocess
+You can directly use the processed data from [this link](https://drive.google.com/drive/folders/1av6mZpk0ThmkOKy5Y_dUnsLRdRK8oBjQ?usp=sharing). (including data w/o and w/ retrieval: full testing set, sampled training set, history length 30/30/60 for Ml-1m/Ml-25m/BookCrossing)
+
+Or you can preprocess by yourself.
 Scripts for data preprocessing of [BookCrossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/), [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/), [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) are included in [data_preprocess](./data_preprocess/).
 
 ## Get semantic embeddings
